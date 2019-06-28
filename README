@@ -1,1 +1,4 @@
-Dockerfile
+git clone this;
+Run :
+docker build -t chat:chat ./
+docker run -d --name chat -p 3000:3000 chat:chat  start.sh
